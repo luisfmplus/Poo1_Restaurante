@@ -1,0 +1,31 @@
+
+tentativo el recibir orden en clientes
+
+en produccion
+
+entregarcomida:::
+
+reporta :::ganacia/perdida:::quitar la orden de lista:::
+
+
+
+a)  Se determina si el primer cliente de la cola hará su pedido, si lo hace, se incluye en una lista de pendientes.
+
+b)  Si hace su pedido, la clase producción crea las instancias de los productos para completar la orden.
+
+c)  Se revisan todos los productos en producción, decrementandolos contadores de los artículos.
+
+d)  Si todos los contadores de algún pedido llegan a0, se hace el cálculo del precio y se saca de la lista de pendientes.
+
+e)  Si se liberan espacios en la cola de producción, se agregannuevos productos.
+
+f)  Se revisa el contador de paciencia de los clientes en espera, si se agota, se saca la orden.
+
+g)  Se registra el número de órdenes completadas, la ganancia acumulada y el número de clientes insatisfechos.
+
+
+Debe implementar una interfaz gráfica que muestre: 
+el primercliente de la cola con sus contadores, 
+la lista de órdenes pendientes con sus artículos y contadores, 
+las estadísticas y un botón paraavanzar a simulación.
+

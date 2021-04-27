@@ -1,0 +1,28 @@
+
+{
+    "Platofuerte" : [
+        {"nombre" : "Hamburguesa", "precio" : 1500, "duracion" : 3, "tamano" : "grande/mediano"},
+        {"nombre" : "Casado", "precio" : 2500, "duracion" : 3, "tamano" : "grande/mediano"},
+        {"nombre" : "Pescado", "precio" : 2000, "duracion" : 3, "tamano" : "grande/mediano"},
+        {"nombre" : "Nachos", "precio" : 1500, "duracion" : 3, "tamano" : "grande/mediano"}
+    ],
+    "Bebidas": [
+        {"nombre" : "CocaCola", "precio" : 900, "duracion" : 1, "tamano" : "200/250/330", "tipo" : "frio/caliente"},
+        {"nombre" : "Fanta", "precio" : 900, "duracion" : 1, "tamano" : "200/250/330", "tipo" : "frio/caliente"},
+        {"nombre" : "Té", "precio" : 700, "duracion" : 1, "tamano" : "200/250/330", "tipo" : "frio/caliente"},
+        {"nombre" : "Café", "precio" : 1200, "duracion" : 1, "tamano" : "200/250/330", "tipo" : "frio/caliente"}
+    ],
+    "Acompanamientos": [
+            {"nombre" : "Papas Enteras", "precio" : 600, "duracion" : 2, "tipo" : "salado/dulce"},
+            {"nombre" : "Papas Fritas", "precio" : 900, "duracion" : 2, "tipo" : "salado/dulce"},
+            {"nombre" : "Sunday", "precio" : 1200, "duracion" : 2, "tipo" : "salado/dulce"},
+            {"nombre" : "MicFlurry", "precio" : 1500, "duracion" : 2, "tipo" : "salado/dulce"}
+
+    ],
+    "Combos" : [
+        {"nombre" : "Mic_omida", "contenido": ["Platofuerte", "Bebidas", "Acompanamientos"]},
+        {"nombre" : "Rapiditos", "contenido": ["Acompanamientos", "Acompanamientos", "Acompanamientos"]},
+        {"nombre" : "Poderliquido", "contenido": ["Bebidas", "Bebidas", "Acompanamientos"]},
+        {"nombre" : "Bengala", "contenido": ["Platofuerte", "Platofuerte", "Acompanamientos"]}
+    ]
+}
