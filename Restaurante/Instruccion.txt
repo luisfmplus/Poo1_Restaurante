@@ -1,0 +1,4 @@
+
+El archivo que ejecuta todo el programa es la clase "Ejecutar"
+
+Esta se encuentra en src/Administracion
